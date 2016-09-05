@@ -1,3 +1,10 @@
+body{
+    font-family: 'Bevan', regular;
+}
+.title{
+    text-align: center;
+    font-size: 1em;
+}
 .thumbnail{
     width: 300px;
     height: auto;
