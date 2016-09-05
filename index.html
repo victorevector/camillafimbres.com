@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Camilla Fimbres</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./static/css/main.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="email rotate">
+            <a href="mailto:cfimbr@saic.edu" alt='Mail'>Email</a>
+        </div>
+        <div class="row">
+            <div class="cat" id="frc">
+                <a href="frc.html">
+                    <img src="static/images/frc.jpg" alt="" />
+                </a>
+            </div>
+            <div class="cat" id="graphic">
+                <a href="graphic.html">
+                    <img src="static/images/graphic.jpg" alt="" />
+                </a>
+            </div>
+            <div class="cat" id="painting">
+                <a href="painting.html">
+                    <img src="static/images/painting.jpg" alt="" />
+                </a>
+            </div>
+            <div class="cat" id="print">
+                <a href="print.html">
+                    <img src="static/images/print.jpg" alt="" />
+                </a>
+            </div>
+            <div class="cat" id="zine">
+                <a href="zine.html">
+                    <img src="static/images/zine.jpg" alt="" />
+                </a>
+            </div>
+            <div id="camilla">
+                <b>CAMILLA</b>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $('.container').click(
+            function(e) {
+                e.preventDefault(); //prevents link from being selected
+                $('.cat').css('top', 'auto').css('left', 'auto'); //returns top and left properties to default state
+                $('.cat').toggleClass('col-xs-12 col-md-3 grid'); //snap to bootstrap grid
+                $(this).off(); //turn this event off
+            }
+        );
+    </script>
+</body>
+
+</html>

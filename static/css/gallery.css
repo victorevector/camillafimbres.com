@@ -1,0 +1,25 @@
+.thumbnail{
+    width: 300px;
+    height: auto;
+    margin: 25px auto;
+}
+body{
+    background-color: rgba(244, 54, 54, 0.13);
+}
+.prev{
+    font-size: 3em;
+    position: fixed;
+    left: 5%;
+    top: 45%;
+    z-index: 100;
+}
+.next{
+    font-size: 3em;
+    position: fixed;
+    right: 5%;
+    top: 45%;
+    z-index: 100;
+}
+a:hover{
+    text-decoration: none;
+}

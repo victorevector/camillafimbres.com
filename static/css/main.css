@@ -1,0 +1,80 @@
+body {
+    background-color: #e6e6e6;
+    font-family: 'Bevan', regular;
+}
+
+.email {
+    position: absolute;
+    top: 57px;
+    left: -15px;
+    z-index: 100;
+    font-size: 18px;
+    color: #ff0000;
+}
+
+a , a:hover, a:active, a:visited{
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.rotate {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.container {
+    position: relative;
+    ;
+}
+
+.cat {
+    position: absolute;
+}
+
+#camilla {
+    text-align: center;
+    position: absolute;
+    ;
+    top: 315px;
+    left: 44%;
+    font-size: 2em;
+    z-index: 200;
+}
+
+.cat img {
+    width: 275px;
+    height: auto;
+}
+
+.grid {
+    position: relative;
+    margin: 20px;
+}
+
+#frc.cat {
+    left: 51%;
+    top: 20px;
+}
+
+#graphic.cat {
+    left: 38%;
+    top: 30px;
+}
+
+#painting.cat {
+    left: 30%;
+    top: 205px;
+}
+
+#print.cat {
+    left: 21%;
+    top: 78px;
+}
+
+#zine.cat {
+    left: 44%;
+    top: 161px;
+}
